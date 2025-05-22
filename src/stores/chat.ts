@@ -3,15 +3,15 @@ import { ref } from 'vue';
 import axios from 'axios';
 import { useUserStore } from './user';
 
-interface ChatMessage {
-    message:string;
-    reply:string;
-}
+// interface ChatMessage {
+//     message:string;
+//     reply:string;
+// }
 
-interface FormattedMessage {
-    role: 'user' | 'ai';
-    content: string;
-}
+// interface FormattedMessage {
+//     role: 'user' | 'ai';
+//     content: string;
+// }
 
 export const useChatStore = defineStore('chat', function(){
     const messages = ref<{ role: string; content: string; }[]>([]);
