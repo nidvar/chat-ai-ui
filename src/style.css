@@ -1,0 +1,46 @@
+.box{
+    padding:5px;
+    max-width:400px;
+}
+
+.user{
+    background-color: aliceblue;
+}
+
+.ai{
+    background-color: lightgoldenrodyellow;
+    margin-left:auto;
+}
+
+.home-login{
+    width:260px;
+    background-color: beige;
+    margin:auto;
+    text-align:center;
+    padding: 10px 0 20px 0;
+    margin-top:50px;
+}
+
+.chat{
+    width:80%;
+    border:1px solid lightgrey;
+    padding:30px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.chat-input{
+    width:300px;
+}
+
+.question-box{
+    margin:30px;
+}
+
+.flex{
+    display:flex;
+}
+
+.logout{
+    margin-left:auto;
+}
